@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Carousel with Overflow Zoom</title>
+  <link rel="stylesheet" href="/styles1.css">
+</head>
+<body>
+    <div >
+        <img class="im" src="https://wallpapers.com/images/hd/netflix-logo-redon-black-l2sdc7dpfo35m127.jpg">
+        <button class="span1"><img src="data:image/png;base64,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"><select><option>English</option></select></button>
+        <button class="span" type="sign-in"><a href="https://www.netflix.com/Login">sign-in</a></button></P>
+        </div>
+        
+        <div class="image">
+        <div class="box">
+          <div class="content">
+            <span class="maincon">Unlimited movies, TV</span>
+            <span class="maincon"> shows and more</span>
+            <div class="div">Starts at ₹149. Cancel at any time. </div>
+            <span class="ready">Ready to watch? Enter your email to create or restart your
+              membership.</span
+            >
+            
+                
+                <button class="get"><a href="https://play.google.com/store/apps/details?id=com.netflix.mediaclient">Download</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!-- First Carousel -->
+   <p><strong>Movies</strong></p>
+  <div class="scroll-container">
+    <button class="scroll-btn left-btn" onclick="scrollImages('imageScroll1', 'left')">&#8249;</button>
+    <div class="sc" id="imageScroll1">
+      <div class="img-wrapper"><img src="/a.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/bahubali.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/bahubali1.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/p1.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/dm.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/ka.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/a.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/bahubali.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/bahubali1.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/p1.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/dm.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/ka.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/a.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/bahubali.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/bahubali1.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/p1.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/dm.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/ka.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/a.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/bahubali.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/bahubali1.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/p1.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/dm.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/ka.jpg" alt=""></div>
+    </div>
+    <button class="scroll-btn right-btn" onclick="scrollImages('imageScroll1', 'right')">&#8250;</button>
+  </div>
+  <p><strong>Sireas and Dramas</strong></p>
+
+  <!-- Second Carousel -->
+  <div class="scroll-container">
+    <button class="scroll-btn left-btn" onclick="scrollImages('imageScroll2', 'left')">&#8249;</button>
+    <div class="sc" id="imageScroll2">
+      <div class="img-wrapper"><img src="/a.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/bahubali.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/bahubali1.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/p1.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/dm.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/ka.jpg" alt=""></div>
+    </div>
+    <button class="scroll-btn right-btn" onclick="scrollImages('imageScroll2', 'right')">&#8250;</button>
+  </div>
+  <p><strong>Anime and Cortoons</strong></p>
+
+  <!-- Third Carousel -->
+  <div class="scroll-container">
+    <button class="scroll-btn left-btn" onclick="scrollImages('imageScroll3', 'left')">&#8249;</button>
+    <div class="sc" id="imageScroll3">
+      <div class="img-wrapper"><img src="/a.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/bahubali.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/bahubali1.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/p1.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/dm.jpg" alt=""></div>
+      <div class="img-wrapper"><img src="/ka.jpg" alt=""></div>
+    </div>
+    <button class="scroll-btn right-btn" onclick="scrollImages('imageScroll3', 'right')">&#8250;</button>
+  </div>
+
+  <!-- Zoom Layer -->
+  <div id="zoomLayer"></div>
+
+  <script>
+    const zoomLayer = document.getElementById('zoomLayer');
+
+    function scrollImages(containerId, direction) {
+      const container = document.getElementById(containerId);
+      const scrollAmount = container.offsetWidth;
+      container.scrollBy({ 
+        left: direction === 'left' ? -scrollAmount : scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+
+    document.querySelectorAll('.img-wrapper img').forEach(img => {
+      img.addEventListener('mouseenter', () => {
+        const rect = img.getBoundingClientRect();
+        zoomLayer.style.display = 'block';
+        zoomLayer.style.top = rect.top + '6px' ;
+        zoomLayer.style.left = rect.left + '6px';
+        
+
+        zoomLayer.innerHTML = `<img src="${img.src}" 
+          style="
+            height:${rect.height}px;
+            transform: scale(1.6); 
+            transform-origin: top left;
+          ">`;
+      });
+
+      img.addEventListener('mouseleave', () => {
+        zoomLayer.style.display = 'none';
+        zoomLayer.innerHTML = '';
+      });
+    });
+  </script>
+
+</body>
+</html>
